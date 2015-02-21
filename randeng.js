@@ -248,7 +248,6 @@ function solder_agreements(expr) {
         }else if (!(acc_markers.indexOf(expr[i-1])+1)) {
             //console.log(2);
             if (expr[i] == 'they') {
-                console.log(true);
                 res.push('them');
             }else {
                 res.push(expr[i]);

@@ -11,7 +11,7 @@ var rules = [
 	],
 	['D', [
 	       ['the'],
-	       [''],
+	       [],
 	       ['some'],
 	       ['these']
 	      ]
@@ -134,7 +134,7 @@ var rules = [
 	      ['boring'],
 	      ['irrational'],
 	      ['romantic relationships'],
-	      ['marriages']
+	      ['married']
 	      ]
 	],
 	['V_I', [
@@ -160,10 +160,10 @@ var rules = [
 	      ['need'],
 	      ['flirt with'],
 	      ['enjoy'],
-	      ['are angry with'],
-	      ['be in fact'],
+	      ['be', 'angry', 'with'],
+	      ['be', 'in', 'fact'],
 	      ['be'],
-	      ['transform into'],
+	      ['transform', 'into'],
 	      ['antidifferentiate'],
 	      ['study']
 	        ]
@@ -240,8 +240,6 @@ function solder_agreements(expr) {
             //console.log(1)
             if (expr[i] == 'be') {
                 res.push('are');
-            }else if (expr[i] == 'be in fact') {
-                res.push('are in fact');
             }else {
                 res.push(expr[i]);
             }

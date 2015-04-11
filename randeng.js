@@ -188,7 +188,7 @@ var rules = [
 	      ['beefs'],
 	      ['beep sounds'],
 	      ['paints'],
-	      ['gays']
+	      ['friends']
 	      ]
 	],
 	['A', [

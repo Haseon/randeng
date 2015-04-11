@@ -39,14 +39,18 @@ var rules = [
 	       ]
 	],
 	['TP', [
-	      ['VP'],
+	      ['eVP'],
 	      ['ModalAux', 'VP']
 	       ]
+	],
+	['eVP', [
+	      ['VP'],
+	      ['V_v', 'to', 'VP']
+	      ]
 	],
 	['VP', [
 	      ['V_I'],
 	      ['V_T', 'DP'],
-	      ['V_v', 'to', 'VP'],
 	      ['V_R', 'CP'],
 	      ['V_cop', 'AP']
 	       ]

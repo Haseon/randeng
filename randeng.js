@@ -13,14 +13,20 @@ var rules = [
 	       ['the'],
 	       [],
 	       ['some'],
-	       ['these']
+	       ['these'],
+	       ['those'],
+	       ['their'],
+	       ['my'],
+	       ['your'],
+	       ['his'],
+	       ['our'],
+	       ['her']
 	      ]
 	],
 	['ProNP', [
 	       ['they'],
-	       ['those'],
-	       ['these'],
-	       ['you']
+	       ['you'],
+	       ['we']
 	       ]
 	],
 	['NP', [
@@ -95,7 +101,82 @@ var rules = [
 	      ['horses'],
 	      ['dragons'],
 	      ['mandarins'],
-	      ['skies']
+	      ['skies'],
+	      ['romantic relationships'],
+	      ['theories'],
+	      ['semioticists'],
+	      ['phones'],
+	      ['phonemes'],
+	      ['word-forms'],
+	      ['wolves'],
+	      ['girls'],
+	      ['boys'],
+	      ['gosams'],
+	      ['soldiers'],
+	      ['machines'],
+	      ['slices of pizza'],
+	      ['lions'],
+	      ['chickens'],
+	      ['eggs'],
+	      ['men'],
+	      ['women'],
+	      ['clothes'],
+	      ['trousers'],
+	      ['skirts'],
+	      ['jan mute pi toki pona'],
+	      ['esperantistoj'],
+	      ['songs'],
+	      ['allomorphs'],
+	      ['notes'],
+	      ['dishes'],
+	      ['soba noodles'],
+	      ['FSMs'],
+	      ['programs'],
+	      ['AIs'],
+	      ['Jimi Hendrixes']
+	      ['groups of Bachs'],
+	      ['groups of Aristotles'],
+	      ['planets'],
+	      ['trees'],
+	      ['woods'],
+	      ['lumps of cheese'],
+	      ['cups of water'],
+	      ['wizards'],
+	      ['beauties'],
+	      ['man candies'],
+	      ['hunks of bread'],
+	      ['game companies'],
+	      ['factories'],
+	      ['chemicals'],
+	      ['toxics'],
+	      ['shampoos'],
+	      ['socks'],
+	      ['foods'],
+	      ['bottles of water'],
+	      ['guitars'],
+	      ['queens'],
+	      ['kings'],
+	      ['prayers'],
+	      ['doors'],
+	      ['angels'],
+	      ['devils'],
+	      ['ghosts'],
+	      ['games'],
+	      ['flies'],
+	      ['fruits'],
+	      ['strawberries'],
+	      ['apples'],
+	      ['books'],
+	      ['articles'],
+	      ['dictionaries'],
+	      ['editors'],
+	      ['chefs'],
+	      ['mice'],
+	      ['airplanes'],
+	      ['cars'],
+	      ['bottles', 'of', 'juice'],
+	      ['theorems'],
+	      ['lawyers']
 	      ]
 	],
 	['A', [
@@ -133,8 +214,39 @@ var rules = [
 	      ['endless'],
 	      ['boring'],
 	      ['irrational'],
-	      ['romantic relationships'],
-	      ['married']
+	      ['romantic'],
+	      ['married'],
+	      ['attractive'],
+	      ['infinitive'],
+	      ['limited'],
+	      ['mathematical'],
+	      ['scary'],
+	      ['tremendous'],
+	      ['delicate'],
+	      ['elegant'],
+	      ['red'],
+	      ['high'],
+	      ['well-formed'],
+	      ['ill-formed'],
+	      ['nice'],
+	      ['down-to-earth'],
+	      ['fun'],
+	      ['tiny'],
+	      ['holy'],
+	      ['pale'],
+	      ['polluted'],
+	      ['endangered'],
+	      ['last'],
+	      ['alive'],
+	      ['wet'],
+	      ['dry'],
+	      ['bitter'],
+	      ['sweet'],
+	      ['tender'],
+	      ['gentle'],
+	      ['mighty'],
+	      ['problematic'],
+	      ['unusual']
 	      ]
 	],
 	['V_I', [
@@ -143,12 +255,23 @@ var rules = [
 	      ['exist'],
 	      ['die'],
 	      ['sing'],
-	      ['hop'],
+	      ['jump'],
 	      ['toss and turn'],
 	      ['run'],
 	      ['fly'],
 	      ['transform'],
-	      ['conjugate']
+	      ['conjugate'],
+	      ['grow'],
+	      ['are', 'human'],
+	      ['live', 'in', 'Mars'],
+	      ['survive'],
+	      ['work', 'in', 'Sundaegukbapjip'],
+	      ['go', 'to', 'jail'],
+	      ['go', 'to' 'church'],
+	      ['go', 'to', 'school'],
+	      ['dance'],
+	      ['collapse'],
+	      ['sing']
 	        ]
 	],
 	['V_T', [
@@ -158,19 +281,62 @@ var rules = [
 	      ['kill'],
 	      ['make'],
 	      ['need'],
-	      ['flirt with'],
+	      ['flirt', 'with'],
 	      ['enjoy'],
 	      ['be', 'angry', 'with'],
 	      ['be', 'in', 'fact'],
 	      ['be'],
 	      ['transform', 'into'],
 	      ['antidifferentiate'],
-	      ['study']
+	      ['study'],
+	      ['write'],
+	      ['eat'],
+	      ['purify'],
+	      ['make'],
+	      ['create'],
+	      ['learn'],
+	      ['touch'],
+	      ['feel'],
+	      ['understand'],
+	      ['like'],
+	      ['affect'],
+	      ['rule'],
+	      ['shake'],
+	      ['wash'],
+	      ['own'],
+	      ['fight', 'against'],
+	      ['drink'],
+	      ['download'],
+	      ['debug'],
+	      ['memorize'],
+	      ['program'],
+	      ['cut'].
+	      ['photograph'],
+	      ['record'],
+	      ['draw'],
+	      ['pluralize'],
+	      ['nasalize'],
+	      ['optimize'],
+	      ['upload'],
+	      ['make', 'sandwiches', 'out', 'of'],
+	      ['get'],
+	      ['take'],
+	      ['palatalize'],
+	      ['look'],
+	      ['watch'],
+	      ['play', 'with'],
+	      ['play', 'chess', 'with'],
+	      ['ruin'],
+	      ['dance', 'with'],
+	      ['harvest']
 	        ]
 	],
 	['V_v', [
 	      ['want'],
-	      ['need']
+	      ['need'],
+	      ['try'],
+	      ['are', 'pleased'],
+	      ['are', 'going']
 	        ]
 	],
 	['V_R', [
@@ -179,7 +345,13 @@ var rules = [
 	      ['say'],
 	      ['mention'],
 	      ['believe'],
-	      ['deny']
+	      ['deny'],
+	      ['imagine'],
+	      ['hypothesize'],
+	      ['propose'],
+	      ['state'],
+	      ['guess'],
+	      ['prove']
 	        ]
 	],
 	['V_cop', [
@@ -243,10 +415,12 @@ function solder_agreements(expr) {
             }else {
                 res.push(expr[i]);
             }
-        }else if (!(acc_markers.indexOf(expr[i-1])+1)) {
+        }else if (expr[i-1] != 'that')) {
             //console.log(2);
             if (expr[i] == 'they') {
                 res.push('them');
+            }else if (expr[i] == 'we') {
+            	res.push('us');
             }else {
                 res.push(expr[i]);
             }

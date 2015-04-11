@@ -265,7 +265,7 @@ var rules = [
 	      ['transform'],
 	      ['conjugate'],
 	      ['grow'],
-	      ['are', 'human'],
+	      ['be', 'human'],
 	      ['live', 'in', 'Mars'],
 	      ['survive'],
 	      ['work', 'in', 'Sundaegukbapjip'],
@@ -338,8 +338,8 @@ var rules = [
 	      ['want'],
 	      ['need'],
 	      ['try'],
-	      ['are', 'pleased'],
-	      ['are', 'going']
+	      ['be', 'pleased'],
+	      ['be', 'going']
 	        ]
 	],
 	['V_R', [

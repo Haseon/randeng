@@ -399,21 +399,14 @@ function eliminate_nonterminal(rules, expr) {
 function solder_agreements(expr) {
     var res = [expr[0]];
     var nonfin_markers = ['to'];
-    var acc_markers = [];
     var already_pushed = 0;
     for(var i=0; i<rules.length; i++) {
         if (rules[i][0] == 'ModalAux') {
             nonfin_markers = nonfin_markers.concat.apply(nonfin_markers, rules[i][1]);
         }
     }
-    for(var i=0; i<rules.length; i++) {
-        if (rules[i][0] == 'V_T') {
-            acc_markers = acc_markers.concat.apply(acc_markers, rules[i][1]);
-        }
-    }
     for(var i=1; i<expr.length; i++) { 
         if (!(nonfin_markers.indexOf(expr[i-1])+1) ) {
-            //console.log(1)
             if (expr[i] == 'be') {
                 res.push('are');
                 already_pushed = 1;

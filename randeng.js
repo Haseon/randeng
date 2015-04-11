@@ -267,7 +267,7 @@ var rules = [
 	      ['survive'],
 	      ['work', 'in', 'Sundaegukbapjip'],
 	      ['go', 'to', 'jail'],
-	      ['go', 'to' 'church'],
+	      ['go', 'to', 'church'],
 	      ['go', 'to', 'school'],
 	      ['dance'],
 	      ['collapse'],

@@ -266,7 +266,7 @@ var rules = [
 	      ['conjugate'],
 	      ['grow'],
 	      ['be', 'human'],
-	      ['live', 'in', 'Mars'],
+	      ['live', 'on', 'Mars'],
 	      ['survive'],
 	      ['work', 'in', 'Sundaegukbapjip'],
 	      ['go', 'to', 'jail'],

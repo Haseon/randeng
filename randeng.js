@@ -183,7 +183,11 @@ var rules = [
 	      ['lawyers'],
 	      ['cameras'],
 	      ['papers'],
-	      ['photos']
+	      ['photos'],
+	      ['steaks'],
+	      ['beefs'],
+	      ['beep sounds'],
+	      ['paints']
 	      ]
 	],
 	['A', [
@@ -253,7 +257,12 @@ var rules = [
 	      ['gentle'],
 	      ['mighty'],
 	      ['problematic'],
-	      ['unusual']
+	      ['unusual'],
+	      ['deadly'],
+	      ['juicy'],
+	      ['delicious'],
+	      ['beloved'],
+	      ['blessed']
 	      ]
 	],
 	['V_I', [
@@ -267,7 +276,6 @@ var rules = [
 	      ['run'],
 	      ['fly'],
 	      ['transform'],
-	      ['conjugate'],
 	      ['grow'],
 	      ['be', 'human'],
 	      ['live', 'on', 'Mars'],
@@ -278,7 +286,12 @@ var rules = [
 	      ['go', 'to', 'school'],
 	      ['dance'],
 	      ['collapse'],
-	      ['sing']
+	      ['sing'],
+	      ['walk', 'into', 'a', 'bar'],
+	      ['play the gayaguem'],
+	      ['sleep', 'furiously'],
+	      ['ascend'],
+	      ['fail']
 	        ]
 	],
 	['V_T', [

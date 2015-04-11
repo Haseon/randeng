@@ -187,7 +187,8 @@ var rules = [
 	      ['steaks'],
 	      ['beefs'],
 	      ['beep sounds'],
-	      ['paints']
+	      ['paints'],
+	      ['gays']
 	      ]
 	],
 	['A', [
@@ -262,7 +263,8 @@ var rules = [
 	      ['juicy'],
 	      ['delicious'],
 	      ['beloved'],
-	      ['blessed']
+	      ['blessed'],
+	      ['gay']
 	      ]
 	],
 	['V_I', [
@@ -291,7 +293,8 @@ var rules = [
 	      ['play the gayaguem'],
 	      ['sleep', 'furiously'],
 	      ['ascend'],
-	      ['fail']
+	      ['fail'],
+	      ['be', 'really', 'good']
 	        ]
 	],
 	['V_T', [

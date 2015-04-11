@@ -434,4 +434,4 @@ function solder_agreements(expr) {
 
 var utterance = solder_agreements(eliminate_nonterminal(rules, sentence)).join(' ')+'.';
 var utterance = utterance.substring(0, 1).toUpperCase() + utterance.substring(1, utterance.length);
-handler.chate(utterance);
+handler.chat(utterance);

@@ -418,7 +418,7 @@ function solder_agreements(expr) {
             }else {
                 res.push(expr[i]);
             }
-        }else if (expr[i-1] != 'that')) {
+        }else if (expr[i-1] != 'that') {
             //console.log(2);
             if (expr[i] == 'they') {
                 res.push('them');

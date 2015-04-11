@@ -400,6 +400,7 @@ function solder_agreements(expr) {
     var res = [expr[0]];
     var nonfin_markers = ['to'];
     var acc_markers = [];
+    var already_pushed = 0;
     for(var i=0; i<rules.length; i++) {
         if (rules[i][0] == 'ModalAux') {
             nonfin_markers = nonfin_markers.concat.apply(nonfin_markers, rules[i][1]);
@@ -415,19 +416,18 @@ function solder_agreements(expr) {
             //console.log(1)
             if (expr[i] == 'be') {
                 res.push('are');
-            }else {
-                res.push(expr[i]);
+                already_pushed = 1;
             }
-        }else if (expr[i-1] != 'that') {
+        if (expr[i-1] != 'that') {
             //console.log(2);
             if (expr[i] == 'they') {
                 res.push('them');
+                already_pushed = 1;
             }else if (expr[i] == 'we') {
             	res.push('us');
-            }else {
-                res.push(expr[i]);
+            	already_pushed = 1;
             }
-        }else {
+        if (!already_pushed) {
             //console.log(3);
             res.push(expr[i]);
         }

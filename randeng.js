@@ -410,6 +410,7 @@ function solder_agreements(expr) {
         }
     }
     for(var i=1; i<expr.length; i++) { 
+    	already_pushed = 0;
         if (!(nonfin_markers.indexOf(expr[i-1])+1) ) {
             if (expr[i] == 'be') {
                 res.push('are');

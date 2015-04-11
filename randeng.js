@@ -356,7 +356,8 @@ var rules = [
 	      ['need'],
 	      ['try'],
 	      ['be', 'pleased'],
-	      ['be', 'going']
+	      ['be', 'going'],
+	      ['begin']
 	        ]
 	],
 	['V_R', [

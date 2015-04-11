@@ -413,7 +413,6 @@ function solder_agreements(expr) {
             }
         }
         if (expr[i-1] != 'that') {
-            //console.log(2);
             if (expr[i] == 'they') {
                 res.push('them');
                 already_pushed = 1;
@@ -423,7 +422,6 @@ function solder_agreements(expr) {
             }
         }
         if (!already_pushed) {
-            //console.log(3);
             res.push(expr[i]);
         }
     }

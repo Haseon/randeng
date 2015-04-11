@@ -176,7 +176,10 @@ var rules = [
 	      ['cars'],
 	      ['bottles', 'of', 'juice'],
 	      ['theorems'],
-	      ['lawyers']
+	      ['lawyers'],
+	      ['cameras'],
+	      ['papers'],
+	      ['photos']
 	      ]
 	],
 	['A', [
@@ -310,7 +313,7 @@ var rules = [
 	      ['debug'],
 	      ['memorize'],
 	      ['program'],
-	      ['cut'].
+	      ['cut'],
 	      ['photograph'],
 	      ['record'],
 	      ['draw'],
